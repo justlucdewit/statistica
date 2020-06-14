@@ -3,13 +3,13 @@
 ##### Statistica is a lightweight statistics library written in C.
 
 ## Usage
-###### First download or clone the statistica.h file from this repo, and then include it in your program with `#include "statistica.h"`. Now all the statistica functions should be available for usage.
+###### First download or clone the statistica.h file from this repo, and then include it in your program with `#include "statistica.h"`. Now, all the statistica functions should be available for usage.
 
 ## Records and recordings
-###### The core concepts of statistica are records and recordings. A record is simply a float, or a integer that needs to be remembered for later analyzation, a record is therefore just a piece of data. <br><br> A recording is what stores the records. It is the dataset that you want to be analyzed.
+###### The core concepts of statistica are records and recordings. A record is simply a float or an integer that needs to be remembered for later analyzation, therefore, a record is just a piece of data. <br><br> A recording is what stores the records. It is the dataset that you want to be analyzed.
 
 ## Recordings
-###### The first thing you must do before using statistica, is creating a emptyRecording, this is done as follows:
+###### The first thing you must do before using Statistica, is creating a emptyRecording. This is done as follows:
 ```c
 #include "statistica.h"
 
@@ -21,7 +21,7 @@ int main(){
 
 ## Records
 
-###### To insert a record into a recording, you must use the `addIntRecord()` or `addFloatRecord()` function. You must pass the recording, and the data as arguments. this is done as follows:
+###### To insert a record into a recording, you must use the `addIntRecord()` or `addFloatRecord()` function. You must pass the recording and the data as arguments. This is done as follows:
 ```c
 #include "statistica.h"
 
